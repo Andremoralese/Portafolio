@@ -1,0 +1,1021 @@
+aside#menu-cortina{
+    width: 290px;           
+    height: 100%;          
+    display: none;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    
+    top: -7px;
+    right: -290px;
+    z-index: 999999;
+    
+    background: rgba(227, 229, 233, 0.72);
+}
+
+aside#menu-cortina a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina a i{
+    font-size: 2.55em;
+    padding: 10px 0 0 0;    
+}
+
+aside#menu-cortina a:hover{
+    color: #000079;
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-cortina a:hover i{
+    color: #000079;
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-cortina a#abrir{
+    left: -65px;
+    color: #000079;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+aside#menu-cortina a#cerrar{
+     left: -65px;
+    color: #000079;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.72);  
+}
+
+aside#menu-cortina nav#menu-moviles{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 10% 15%;
+    position: relative;
+    float: none;    
+}
+
+aside#menu-cortina nav#menu-moviles a{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 60px auto;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000000; 
+    padding: 20px 0 4px;
+    letter-spacing: 0.07em;
+    line-height: 0.75em;   
+}
+
+aside#menu-cortina nav#menu-moviles a:hover{
+   color: #000079;
+   border-bottom: solid 1px #000079;
+    transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina nav#menu-moviles a.activo{
+    width: 40%;
+    color: #000079;
+    border-bottom: solid 2px #000079;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin:0;
+    position: fixed;
+    
+    bottom: 30px;
+    right:  30px;
+    z-index: 9999;
+}
+
+aside#wpp a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin:0 auto;
+    position: relative;
+    
+    background: #138d3d;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.62);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp a i{
+    display: block;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp a:hover{
+    background: #fff;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp a i:hover{
+  color: #000079;
+  transition: all 0.3s ease-in;
+}
+
+header {
+    width: 100%;           
+    height: 90px;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #000000;
+}
+
+header article{
+    width: 1200px;           
+    height: 100px;         
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position:relative;    
+}
+
+header article a#logo{
+    width: 158px;
+    height: 60px;
+    display: block;
+    margin: -24px 60px;
+    float: left;
+    position: relative;
+}
+
+header article a#logo img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-principal{
+    width: 708px;
+    height: 60px;
+    display: block;
+    margin: 12px -75px 15px 10px;
+    float: right;
+    position: relative; 
+}
+
+header article nav#menu-principal a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 25px;
+    float: left;
+    position: relative;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 25px 0 4px;
+    letter-spacing: 0.07em;
+    line-height: 1em;
+}
+
+header article nav#menu-principal a:hover{
+    color: #6868E8;
+    border-bottom: solid 1px #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+header article nav#menu-principal a.activo{
+    color: #6868E8;
+    border-bottom: solid 1px #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#fila-banner{
+    width: 100%;
+    height: 623px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #FBFBFB;
+}
+
+main section#fila-banner article#cuadro-text{
+    width: 29%;
+    height: 623px;        
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position:relative;
+}
+
+main section#fila-banner article#cuadro-text img{
+    width: 280px;
+    height: auto;
+    display: block;
+    margin: -85px auto;
+    float: none;
+    position: relative;
+    padding: 279px 0 0px;
+}
+
+main section#fila-banner article#cuadro-text h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 0px 0px 8px 0px;
+    font-weight: 500;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes{
+    width: 32%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 0px 0px 12px;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 1.1em;
+    color: #000079;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a:hover{
+    color: #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a#logowsp i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #000079;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a#logofaceb i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #000079;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a#logoinstagram i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #000079;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#banner{
+    width: 71%;           
+    height: 623px;         
+    display: block;
+    margin: 0;
+    float: right;
+    position:relative;
+    background: url(../img/fondos/Banner-homepage.jpg) no-repeat top center #fff;
+    background-size: cover;
+}
+
+main section#fila-banner article#banner img{
+    display: none;
+}
+
+main section#perfil{
+    width: 100%;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #ffffff;
+}
+
+main section#perfil article{
+    width: 1100px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#perfil article figure{
+    width: 440px;
+    height: 360px;
+    display: block;
+    margin: 0px 55px 0 55px;
+    float: left;
+    position: relative;
+    padding: 90px 0;
+}
+
+main section#perfil article figure h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 0 auto;
+    padding: 25px 0px 10px 0px;
+    font-weight: bold;
+}
+
+main section#perfil article figure h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 0px 0px 22px 0px;
+    font-weight: bold;
+}
+
+main section#perfil article figure img{
+    width: 345px;
+    height: auto;
+    display: none;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+main section#perfil article figure p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+main section#perfil article figure a{
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    bottom: 163px;
+    right: 309px;
+    z-index: 10;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+
+main section#perfil article figure a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#perfil article figure#img{
+    width: 440px;
+    height: 360px;
+    display: block;
+    margin: 0px 55px 0 55px;
+    float: right;
+    position: relative;
+    padding: 90px 0;
+}
+
+main section#perfil article figure#img img{
+    width: 420px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+main section#servicios{
+    width: 100%;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+
+main section#servicios article{
+    width: 1100px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#servicios article h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    padding: 65px 0px 8px 0px;
+    font-weight: bold;
+}
+
+main section#servicios article figure{
+    width: 479px;
+    height: 234px;
+    display: block;
+    margin: 75px 30px 75px 30px;
+    float: left;
+    position: relative;  
+}
+
+main section#servicios article figure a{
+    width: 124px;
+    height: auto;
+    display: block;
+    margin: -35px auto;
+    float: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+
+main section#servicios article figure a:hover{
+    color: #6868e85e;
+    transition: all 0.3s ease-in;
+}
+
+main section#servicios article figure img{
+    width: 124px;
+    height: 124px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 50%;
+}
+
+main section#servicios article figure h3{
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 52px 0 0 0;
+    margin: 0 0 0 12px;
+    font-weight: bold;
+    float: none;
+}
+
+main section#servicios article figure p{
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 12px;
+    margin: 0 0 0 12px;
+    font-weight: 300;
+    float: none;
+}
+
+main section#servicios article a#boton-os{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    bottom: 30px;
+    right: 475px;
+    z-index: 10;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+
+main section#servicios article a#boton-os:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#galeria-trabajos{
+    width: 100%;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #ffffff;
+}
+
+main section#galeria-trabajos article{
+    width: 1146px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    padding: 56px 0px 16px 0px;
+    font-weight: bold;
+}
+
+main section#galeria-trabajos article a{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    bottom: 12px;
+    right: 500px;
+    z-index: 10;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+
+main section#galeria-trabajos article a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#galeria-trabajos article figure#fila-1{
+    width: 166px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 0px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-1 img#img1{
+    width: 166px;
+    height: auto;
+    display: block;
+    margin: 0px 0 18px 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-1 img#img2{
+    width: 166px;
+    height: auto;
+    display: block;
+    margin: 18px 0 0 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-2{
+    width: 171px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-2 img#img3{
+    width: 171px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-3{
+    width: 231px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-3 img#img4{
+    width: 232px;
+    height: auto;
+    display: block;
+    margin: 0px 0 18px 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-3 img#img5{
+    width: 232px;
+    height: auto;
+    display: block;
+    margin: 18px 0 0 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-4{
+    width: 174px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-4 img#img6{
+    width: 172px;
+    height: auto;
+    display: block;
+    margin: 0 0 18px 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-4 img#img7{
+    width: 172px;
+    height: auto;
+    display: block;
+    margin: 18px 0 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-5{
+    width: 332px;
+    height: 269px;
+    display: block;
+    margin: 0px 0px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-5 img#img8{
+    width: 157px;
+    height: auto;
+    display: block;
+    margin: 0 18px 18px 0px;
+    float: left;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-5 img#img9{
+    width: 157px;
+    height: auto;
+    display: block;
+    margin: 0 0 18px 9px;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-5 img#img10{
+    width: 331px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+footer{ 
+    width: 100%;           
+    height: 440px;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative; 
+    bottom: 0;
+    left:0;
+    background: #000000;
+}
+
+footer article#contactame{
+    width: 500px;           
+    height: 100%;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative; 
+}
+
+footer article#contactame a#logo-footer{
+    width: 172px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+
+footer article#contactame a#logo-footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative;
+}
+
+footer article#contactame a#correo{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 66px 0 0 0;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame a#correo:hover{
+    color: #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame p{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0 0 0 2px;
+    line-height: 1.5em;
+}
+
+footer article#contactame nav { 
+    width: 24%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 0px 0px 16px;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a:hover{
+    color: #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a#logowsp i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a#logofaceb i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a#logoinstagram i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+
+/* Tablets */
+@media only screen and (max-width: 1199px){
+    aside#menu-cortina { display: block; }
+    header article a#logo { margin: -24px 95px; }
+    header article nav#menu-principal { display: none; }
+    main section#fila-banner { height: 660px; }
+    main section#fila-banner article#banner { height: 660px; }
+    main section#galeria-trabajos article { width: 962px; }
+    main section#galeria-trabajos article a { right: 410px; }
+    main section#galeria-trabajos article figure#fila-1 { display: none; }
+    main section#galeria-trabajos article figure#fila-2 { margin: 0px 9px 0 0px; }
+
+}
+
+@media only screen and (max-width: 899px){
+    aside#menu-cortina { right: -285px; }
+    header article { width: 1240px; }
+    header article a#logo { margin: -24px 81px; }
+    main { width: 123%; }
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 37%; }
+    main section#perfil article { width: 900px; }
+    main section#perfil article figure { margin: 0px 38px 0 20px; }
+    main section#perfil article figure#img { width: 343px; margin: 0px 20px 0 38px; }
+    main section#perfil article figure#img img { width: 345px; }
+    main section#servicios article { width: 900px; }
+    main section#servicios article a#boton-os { right: 377px; }
+    main section#servicios article figure { width: 390px; }
+    footer { width: 123%; }
+}
+
+@media only screen and (max-width: 799px){
+    header article a#logo { margin: -24px 63px; }
+    main section#fila-banner article#cuadro-text img { width: 250px; }
+    main section#fila-banner article#cuadro-text h3 { font-size: 1.3em; padding: 4px 0px 8px 0px;}
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 39%; }
+    main section#fila-banner article#cuadro-text nav#menu-redes a { font-size: 1em; }
+    main section#perfil article figure { width: 400px; margin: 0px 38px 0 41px; }
+    main section#perfil article figure h2 { font-size: 1.5em; padding: 25px 0px 6px 0px; }
+    main section#perfil article figure h3 { font-size: 1.3em; }
+    main section#perfil article figure a { right: 270px; }
+    main section#perfil article figure#img { margin: 0px 40px 0 38px; }
+    main section#galeria-trabajos article { width: 788px; }
+    main section#galeria-trabajos article a { right: 322px; }
+    main section#galeria-trabajos article figure#fila-5 { width: 158px; }
+    main section#galeria-trabajos article figure#fila-5 img#img9 { margin: 0; }
+    main section#galeria-trabajos article figure#fila-5 img#img10 { display: none; }
+}
+
+@media only screen and (max-width: 599px){
+    header article a#logo { margin: -24px 12px; }
+    main { width: 151%; }
+    main section#fila-banner article#cuadro-text { width: 100%; height: 660px; background: url(../img/fondos/Banner-homepage-op.png) no-repeat top center #ffffff; }
+    main section#fila-banner article#cuadro-text img { width: 305px; }
+    main section#fila-banner article#cuadro-text h3 { font-size: 1.4em; padding: 0px 0px 3px 0px;}
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 12%; }
+    main section#fila-banner article#cuadro-text nav#menu-redes a { font-size: 1.1em; }
+    main section#fila-banner article#banner { display: none; }
+    main section#perfil article figure { margin: 0px 10px 0 69px; }
+    main section#perfil article figure p { font-size: 0.98em; }
+    main section#perfil article figure a { bottom: 184px; font-size: 0.98em; }
+    main section#perfil article figure#img { margin: 0px 68px 0 10px; }
+    main section#servicios article { width: 780px; }
+    main section#servicios article a#boton-os { right: 318px; }
+    main section#servicios article figure { width: 330px; }
+    main section#servicios article figure h3 { font-size: 1em; }
+    main section#servicios article figure p { font-size: 0.98em; padding: 8px 12px; }
+    footer { width: 151%; }
+}
+
+/* Móviles */
+@media only screen and (max-width: 499px){
+    main { width: 180%; }
+    main section#perfil { height: 909px; }
+    main section#perfil article { width: 700px; height: 909px; }
+    main section#perfil article figure { width: 452px; margin: 0 auto; float: none; padding: 34px 0;}
+    main section#perfil article figure h2 { font-size: 2.2em; text-align: left; }
+    main section#perfil article figure h3 { font-size: 1.6em; }
+    main section#perfil article figure img { display: block; float: none; width: 448px; padding: 0 0 22px; }
+    main section#perfil article figure p { font-size: 1.4em; }
+    main section#perfil article figure a { width: 163px; right: 162px; bottom: -420px; font-size: 1.2em; }
+    main section#perfil article figure#img { display: none; }
+    main section#servicios { height: 909px; }
+    main section#servicios article { width: 700px; height: 909px; }
+    main section#servicios article h1 { font-size: 2.2em; }
+    main section#servicios article figure { width: 430px; margin: 0 auto; float: none; padding: 76px 0 26px;}
+    main section#servicios article figure h3 { font-size: 1.5em; }
+    main section#servicios article figure p { font-size: 1.4em; }
+    main section#servicios article a#boton-os { width: 179px; right: 258px; bottom: 83px; font-size: 1.2em; }
+    main section#galeria-trabajos { height: 600px; }
+    main section#galeria-trabajos article { width: 700px; height: 600px; }
+    main section#galeria-trabajos article h1 { font-size: 2.2em; }
+    main section#galeria-trabajos article a { right: 270px; bottom: 62px; font-size: 1.2em; }
+    main section#galeria-trabajos article figure#fila-2 { width: 189px; margin: 0px 9px 0 17px; }
+    main section#galeria-trabajos article figure#fila-2 img#img3 { width: 188px; }
+    main section#galeria-trabajos article figure#fila-3 { width: 249px; }
+    main section#galeria-trabajos article figure#fila-3 img#img4 { width: 251px; }
+    main section#galeria-trabajos article figure#fila-3 img#img5 { width: 260px; }
+    main section#galeria-trabajos article figure#fila-4 { width: 192px; margin: 0px 0px 0 9px; }
+    main section#galeria-trabajos article figure#fila-4 img#img6 { width: 194px; margin: 0 0 15px 0; }
+    main section#galeria-trabajos article figure#fila-4 img#img7 { width: 192px; margin: 16px 0 0; }
+    main section#galeria-trabajos article figure#fila-5 { display: none; }
+    footer { width: 181%; }
+    footer article#contactame a#logo-footer { width: 205px; padding: 28px 0 0 0;}
+    footer article#contactame a#correo { font-size: 1.2em; padding: 70px 0 0 0; }
+    footer article#contactame p { font-size: 1.2em; }
+    footer article#contactame nav { width: 25%; }
+    footer article#contactame nav a { font-size: 1.5em; }
+}
+
+@media only screen and (max-width: 449px){
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 14%; }
+}
+
+@media only screen and (max-width: 399px){
+    main { width: 182%; }
+    main section#galeria-trabajos article figure#fila-2 { margin: 0px 9px 0 117px; }
+    main section#galeria-trabajos article figure#fila-4 { display: none; }
+}
